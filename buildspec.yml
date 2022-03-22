@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - node generate-buildno.js
+      - npm run build
+      - npm run export
+      
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: out

@@ -1,0 +1,33 @@
+.detector {
+    text-align: center;
+  }
+  
+  .detectorHeader {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(196, 195, 255);
+  }
+  
+  .MenuNav{
+    font-size: 180%;
+    text-align: center;
+    padding-right: 6%;
+    color: #c4c3ff;
+  }
+
+  .MenuTitle{
+    font-size: 350%;
+    text-align: center;
+    color: rgb(100, 97, 247);
+  }
+
+  .EjDiv{
+    background-color: #282c34;
+  }
+
+  
